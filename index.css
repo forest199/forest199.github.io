@@ -1,0 +1,80 @@
+.all-price{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	color: orange;
+	height: 30px;
+	line-height: 30px;
+}
+.all-price-left span{
+	font-size: 24px;
+}
+.all-price-left del{
+	margin-left: 20px;
+	color: grey;
+}
+.all-price-right{
+	color: grey;
+}
+.all-line-type{
+	border-top: 1px solid #ccc;
+	display: flex;
+	/* justify-content: space-around; */
+}
+.all-line-type-state{
+	text-align: center;
+	display: flex;
+	flex: 1; 
+	flex-direction: column;
+	height: 80px;
+	justify-content: space-around;
+}
+.state-type{
+	background: url(type-relax.png) center center no-repeat;
+	height: 32px;
+}
+.state-start{
+	background: url(type-start.png) center center no-repeat;
+	height: 32px;
+}
+.state-time{
+	background: url(type-time.png) center center no-repeat;
+	height: 32px;
+}
+.all-head{
+	background: url(head.jpg);
+	background-size: 100% 100%;
+	height: 200px;
+	border-radius:10px;
+	margin-bottom: 10px;
+}
+.all-start-date{
+	margin: 20px 0px;
+}
+.all-remark-cate{
+	display: flex;
+	justify-content: space-around;
+}
+.all-remark-sun-detail p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.all-remark-sun-detail-title{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+.all-remark-sun-detail-head{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.all-remark-sun-detail-img{
+	text-align: center;
+}
+.all-remark-sun-detail-img img{
+	border-radius: 10px;
+	height: 180px;
+}
