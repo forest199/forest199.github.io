@@ -1,3 +1,9 @@
+.all{
+	max-width: 550px;
+	margin: 0 auto;
+	/* display: flex; */
+	/* align-items: center; */
+}
 .all-price{
 	display: flex;
 	justify-content: space-between;
@@ -76,5 +82,6 @@
 }
 .all-remark-sun-detail-img img{
 	border-radius: 10px;
+	width:50%;
 	height: 180px;
 }
