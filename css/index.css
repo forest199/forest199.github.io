@@ -36,19 +36,19 @@
 	justify-content: space-around;
 }
 .state-type{
-	background: url(type-relax.png) center center no-repeat;
+	background: url(../img/type-relax.png) center center no-repeat;
 	height: 32px;
 }
 .state-start{
-	background: url(type-start.png) center center no-repeat;
+	background: url(../img/type-start.png) center center no-repeat;
 	height: 32px;
 }
 .state-time{
-	background: url(type-time.png) center center no-repeat;
+	background: url(../img/type-time.png) center center no-repeat;
 	height: 32px;
 }
 .all-head{
-	background: url(head.jpg);
+	background: url(../img/zjqm/head.jpg);
 	background-size: 100% 100%;
 	height: 200px;
 	border-radius:10px;
