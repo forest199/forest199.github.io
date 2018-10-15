@@ -62,6 +62,12 @@
 .font-red{color: red;}
 .font-bold{font-weight: bold;}
 .font-20{font-size: 20px;}
+.heart-shape{position:absolute;width:10px;height:10px;background-color:red;border-radius:3px;transform:rotate(45deg);top:35%;left:30%;margin:-5px;}
+.heart-shape:before{content:'';position:absolute;width:10px;height:10px;background-color:red;border-radius:50%;top:0px;left:-5px;}
+.heart-shape:after{position:absolute;width:10px;height:10px;content:'';background-color:red;border-radius:50%;left:0px;top:-5px;}
+.heart-shape2{position:absolute;width:10px;height:10px;background-color:red;border-radius:3px;transform:rotate(45deg);top:35%;right:30%;margin:-5px;}
+.heart-shape2:before{content:'';position:absolute;width:10px;height:10px;background-color:red;border-radius:50%;top:0px;left:-5px;}
+.heart-shape2:after{position:absolute;width:10px;height:10px;content:'';background-color:red;border-radius:50%;left:0px;top:-5px;}
 @-webkit-keyframes shake{
         0%{
             opacity: 1;
@@ -84,8 +90,14 @@
         }
     }
     .shake{
+		position: relative;
         -webkit-animation: shake 2s infinite;
         animation: shake 2s infinite;
 		color: red;
 		font-weight: bold;
+		text-align: center;
+		border-size: 5px;
+		border-style: dashed;
+		border-color: black;
+		padding:10px;
     }
