@@ -1,0 +1,11 @@
+.artical-title-left{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+.artical-img img{
+	border-radius: 10px;
+    width: 100%;
+    height: 180px;
+}
