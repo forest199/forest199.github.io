@@ -5,6 +5,21 @@
 	/* align-items: center; */
 }
 .artical-title{	font-size: 20px;font-weight: bold;}
+.artical-title-left{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+.artical-img img,video{
+	border-radius: 10px;
+    width: 100%;
+    height: 180px;
+}
+.artical-item{
+	margin:10px 0px;
+}
+.one-day-detail{padding-left: 20px;}
 .all-price{
 	display: flex;
 	justify-content: space-between;
